@@ -567,6 +567,9 @@ class CrawlProcessHandlerBase(object):
                                          self.username + ".macro"),
                  "-morgue", self.config_path("morgue_path")]
 
+        if self.config_path("crawl_path"):
+            call += "-dir", self.config_path("crawl_path")
+
         if "options" in game:
             call += game["options"]
 

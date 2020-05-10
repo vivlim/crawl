@@ -66,6 +66,7 @@ games = OrderedDict([
     ("dcss-web-trunk", dict(
         name = "DCSS trunk",
         crawl_binary = "./crawl",
+        crawl_path = "./",
         rcfile_path = "./rcs/",
         macro_path = "./rcs/",
         morgue_path = "./rcs/%n",
@@ -78,6 +79,7 @@ games = OrderedDict([
     ("seeded-web-trunk", dict(
         name = "DCSS trunk, custom seed",
         crawl_binary = "./crawl",
+        crawl_path = "./",
         rcfile_path = "./rcs/",
         macro_path = "./rcs/",
         morgue_path = "./rcs/%n",
@@ -91,6 +93,7 @@ games = OrderedDict([
     ("sprint-web-trunk", dict(
         name = "Sprint trunk",
         crawl_binary = "./crawl",
+        crawl_path = "./",
         rcfile_path = "./rcs/",
         macro_path = "./rcs/",
         morgue_path = "./rcs/%n",
@@ -104,6 +107,7 @@ games = OrderedDict([
     ("tut-web-trunk", dict(
         name = "Tutorial trunk",
         crawl_binary = "./crawl",
+        crawl_path = "./",
         rcfile_path = "./rcs/",
         macro_path = "./rcs/",
         morgue_path = "./rcs/%n",
